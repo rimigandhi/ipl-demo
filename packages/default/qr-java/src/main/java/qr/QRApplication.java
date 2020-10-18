@@ -15,7 +15,6 @@ public class QRApplication extends SpringBootServletInitializer{
 	public static void main(String[] args) {
 	    SpringApplication.run(QRApplication.class, args);
 	  }
-		
 		  @Bean 
 		  public Function<Flux<String>, Flux<String>> uppercase() {
 		  System.out.println("Hello World"); 
